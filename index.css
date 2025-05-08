@@ -1,0 +1,31 @@
+h1{padding: 50px;}
+
+.navbar {
+    background-image: url(immagini/06-958x575.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+body {
+    background-image: url(immagini/06-958x575.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.card img {
+    width: 263px;
+    height: 100px;
+}
+.card-text {
+   width: 230px;
+    height: 72px;
+}
+.troncaAltezza {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
