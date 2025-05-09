@@ -1,322 +1,377 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
-  </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+</head>
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"></a>
-          
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#migliori">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#classifica">Classifica</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#preferito">Album preferito</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#migliori">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#classifica">Classifica</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#preferito">Album preferito</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <main class="container">
+    <h1 id="migliori" class="text-center">I migliori Album Caraibici della Storia</h1>
+    <section class="row ">
+      <div class="card bg-success p-3 text-dark bg-opacity-50 .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
+        <img src="immagini/th (1).jpeg" class="card-img-top" alt="copertina album">
+        <div class="card-body">
+          <h5 class="card-title">Muevense</h5>
+          <p class="card-text troncaAltezza">Un album recente che riflette l'influenza di Marc Anthony della musica
+            salsa </p>
         </div>
-      </nav>
-      <main class="container">
-        <h1  id="migliori" class="text-center">I migliori Album Caraibici della Storia</h1>
-        <section class="row">
-        <div class="card .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
-            <img src="immagini/th (1).jpeg" class="card-img-top" alt="copertina album">
-            <div class="card-body">
-              <h5 class="card-title">Muevense</h5>
-              <p class="card-text troncaAltezza">Un album recente che riflette l'influenza di Marc Anthony della musica salsa </p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Artista: Marc Anthony</li>
-              <li class="list-group-item">Genere: Salsa</li>
-              <li class="list-group-item">Durata: 205 minuti</li>
-            </ul>
-            <div class="card-body text-center">
-              <a href="#" class="card-link ">Card link</a>
-            </div>
-          </div>
-          <div class="card .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
-            <img src="immagini/th (2).jpeg" class="card-img-top" alt="copertina album">
-            <div class="card-body">
-              <h5 class="card-title">Vivere bleu</h5>
-              <p class="card-text troncaAltezza"> Un omaggio convincente alla salsa romantica degli anni ’80, ben accolto nonostante il dibattito sulla legittimità di questo sottogenere. </p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Artista: Victor Manuelle
-              </li>
-              <li class="list-group-item">Genere: Salsa</li>
-              <li class="list-group-item">Durata: 170 minuti</li>
-            </ul>
-            <div class="card-body text-center">
-              <a href="#" class="card-link ">Card link</a>
-            </div>
-          </div>
-          <div class="card .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
-            <img src="immagini/th (1).jpeg" class="card-img-top" alt="copertina album">
-            <div class="card-body">
-              <h5 class="card-title">Muevense</h5>
-              <p class="card-text troncaAltezza">Un album recente che riflette l'influenza di Marc Anthony della musica salsa </p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Artista: Marc Anthony</li>
-              <li class="list-group-item">Genere: Salsa</li>
-              <li class="list-group-item">Durata: 205 minuti</li>
-            </ul>
-            <div class="card-body text-center">
-              <a href="#" class="card-link ">Card link</a>
-            </div>
-          </div>
-          <div class="card .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
-            <img src="immagini/th (1).jpeg" class="card-img-top" alt="copertina album">
-            <div class="card-body">
-              <h5 class="card-title">Muevense</h5>
-              <p class="card-text troncaAltezza">Un album recente che riflette l'influenza di Marc Anthony della musica salsa </p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Artista: Marc Anthony</li>
-              <li class="list-group-item">Genere: Salsa</li>
-              <li class="list-group-item">Durata: 205 minuti</li>
-            </ul>
-            <div class="card-body text-center">
-              <a href="#" class="card-link ">Card link</a>
-            </div>
-          </div>
-          <div class="card .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
-            <img src="immagini/th (1).jpeg" class="card-img-top" alt="copertina album">
-            <div class="card-body">
-              <h5 class="card-title">Muevense</h5>
-              <p class="card-text troncaAltezza">Un album recente che riflette l'influenza di Marc Anthony della musica salsa </p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Artista: Marc Anthony</li>
-              <li class="list-group-item">Genere: Salsa</li>
-              <li class="list-group-item">Durata: 205 minuti</li>
-            </ul>
-            <div class="card-body text-center">
-              <a href="#" class="card-link ">Card link</a>
-            </div>
-          </div>
-          <div class="card .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
-            <img src="immagini/th (1).jpeg" class="card-img-top" alt="copertina album">
-            <div class="card-body">
-              <h5 class="card-title">Muevense</h5>
-              <p class="card-text troncaAltezza">Un album recente che riflette l'influenza di Marc Anthony della musica salsa </p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Artista: Marc Anthony</li>
-              <li class="list-group-item">Genere: Salsa</li>
-              <li class="list-group-item">Durata: 205 minuti</li>
-            </ul>
-            <div class="card-body text-center">
-              <a href="#" class="card-link ">Card link</a>
-            </div>
-          </div>
-          <div class="card .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
-            <img src="immagini/th (1).jpeg" class="card-img-top" alt="copertina album">
-            <div class="card-body">
-              <h5 class="card-title">Muevense</h5>
-              <p class="card-text troncaAltezza">Un album recente che riflette l'influenza di Marc Anthony della musica salsa </p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Artista: Marc Anthony</li>
-              <li class="list-group-item">Genere: Salsa</li>
-              <li class="list-group-item">Durata: 205 minuti</li>
-            </ul>
-            <div class="card-body text-center">
-              <a href="#" class="card-link ">Card link</a>
-            </div>
-          </div>
-          <div class="card .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
-            <img src="immagini/th (1).jpeg" class="card-img-top" alt="copertina album">
-            <div class="card-body">
-              <h5 class="card-title">Muevense</h5>
-              <p class="card-text troncaAltezza">Un album recente che riflette l'influenza di Marc Anthony della musica salsa </p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Artista: Marc Anthony</li>
-              <li class="list-group-item">Genere: Salsa</li>
-              <li class="list-group-item">Durata: 205 minuti</li>
-            </ul>
-            <div class="card-body text-center">
-              <a href="#" class="card-link ">Card link</a>
-            </div>
-          </div>
-        </section>
-        <h1 id="classifica" class="text-center">Classifica Album piu Votati</h1>
-        <section  class="row">
-        <div class="card .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">An item</li>
-              <li class="list-group-item">A second item</li>
-              <li class="list-group-item">A third item</li>
-            </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
-          </div>
-          <div class="card .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">An item</li>
-              <li class="list-group-item">A second item</li>
-              <li class="list-group-item">A third item</li>
-            </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
-          </div>
-          <div class="card .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">An item</li>
-              <li class="list-group-item">A second item</li>
-              <li class="list-group-item">A third item</li>
-            </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
-          </div>
-          <div class="card .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">An item</li>
-              <li class="list-group-item">A second item</li>
-              <li class="list-group-item">A third item</li>
-            </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
-          </div>
-          <div class="card .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">An item</li>
-              <li class="list-group-item">A second item</li>
-              <li class="list-group-item">A third item</li>
-            </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
-          </div>
-          <div class="card .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">An item</li>
-              <li class="list-group-item">A second item</li>
-              <li class="list-group-item">A third item</li>
-            </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
-          </div>
-          <div class="card .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">An item</li>
-              <li class="list-group-item">A second item</li>
-              <li class="list-group-item">A third item</li>
-            </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
-          </div>
-          <div class="card .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">An item</li>
-              <li class="list-group-item">A second item</li>
-              <li class="list-group-item">A third item</li>
-            </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
-          </div>
-        </section>
-        <section id="preferito" class="container my-5">
-          <div class="row align-items-center">
-            <div class="col-md-4">
-              <img src="immagini/th (1).jpeg" alt="Copertina Album" class="img-fluid rounded shadow">
-            </div>
-            <div class="col-md-8">
-              <h2 class="mb-3">Muovense</h2>
-              <p><strong>Band:</strong> Marc Anthony</p>
-              <p><strong>Durata:</strong> 205 minuti</p>
-              <p><strong>Genere:</strong> Salsa</p>
-              <h5 class="mt-4">Tracce:</h5>
-              <ol>
-                <li>Muevense</li>
-                <li>Punta Cana</li>
-                <li>Si Te Enamoro</li>
-                <li>Malos</li>
-                <li>Ojalá Te Duela</li>
-                <li>En La Distancia</li>
-                <li>Ale Ale</li>	
-                <li>A Dónde Vamos A Parar</li>	
-                <li>Pasemos A Los Besos</li>	
-                <li>Amarte A La Antigua</li>
-                </ol>
-            </div>
-          </div>
-        </section>
-      </main>
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script> 
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Artista: Marc Anthony</li>
+          <li class="list-group-item">Genere: Salsa</li>
+          <li class="list-group-item">Durata: 205 minuti</li>
+        </ul>
+        <div class="card-body text-center">
+          <a href="#" class="card-link ">Card link</a>
+        </div>
+      </div>
+      <div class="card bg-success p-3 text-dark bg-opacity-50 .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
+        <img src="immagini/th (2).jpeg" class="card-img-top" alt="copertina album">
+        <div class="card-body">
+          <h5 class="card-title">Vivere bleu</h5>
+          <p class="card-text troncaAltezza"> Un omaggio convincente alla salsa romantica degli anni ’80, ben accolto
+            nonostante il dibattito sulla legittimità di questo sottogenere. </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Artista: Victor Manuelle
+          </li>
+          <li class="list-group-item">Genere: Salsa</li>
+          <li class="list-group-item">Durata: 170 minuti</li>
+        </ul>
+        <div class="card-body text-center">
+          <a href="#" class="card-link ">Card link</a>
+        </div>
+      </div>
+      <div class="card bg-success p-3 text-dark bg-opacity-50 .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
+        <img src="immagini/th (1).jpeg" class="card-img-top" alt="copertina album">
+        <div class="card-body">
+          <h5 class="card-title">Muevense</h5>
+          <p class="card-text troncaAltezza">Un album recente che riflette l'influenza di Marc Anthony della musica
+            salsa </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Artista: Marc Anthony</li>
+          <li class="list-group-item">Genere: Salsa</li>
+          <li class="list-group-item">Durata: 205 minuti</li>
+        </ul>
+        <div class="card-body text-center">
+          <a href="#" class="card-link ">Card link</a>
+        </div>
+      </div>
+      <div class="card bg-success p-3 text-dark bg-opacity-50 .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
+        <img src="immagini/th (1).jpeg" class="card-img-top" alt="copertina album">
+        <div class="card-body">
+          <h5 class="card-title">Muevense</h5>
+          <p class="card-text troncaAltezza">Un album recente che riflette l'influenza di Marc Anthony della musica
+            salsa </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Artista: Marc Anthony</li>
+          <li class="list-group-item">Genere: Salsa</li>
+          <li class="list-group-item">Durata: 205 minuti</li>
+        </ul>
+        <div class="card-body text-center">
+          <a href="#" class="card-link ">Card link</a>
+        </div>
+      </div>
+      <div class="card bg-success p-3 text-dark bg-opacity-50 .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
+        <img src="immagini/th (1).jpeg" class="card-img-top" alt="copertina album">
+        <div class="card-body">
+          <h5 class="card-title">Muevense</h5>
+          <p class="card-text troncaAltezza">Un album recente che riflette l'influenza di Marc Anthony della musica
+            salsa </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Artista: Marc Anthony</li>
+          <li class="list-group-item">Genere: Salsa</li>
+          <li class="list-group-item">Durata: 205 minuti</li>
+        </ul>
+        <div class="card-body text-center">
+          <a href="#" class="card-link ">Card link</a>
+        </div>
+      </div>
+      <div class="card bg-success p-3 text-dark bg-opacity-50 .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
+        <img src="immagini/th (1).jpeg" class="card-img-top" alt="copertina album">
+        <div class="card-body">
+          <h5 class="card-title">Muevense</h5>
+          <p class="card-text troncaAltezza">Un album recente che riflette l'influenza di Marc Anthony della musica
+            salsa </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Artista: Marc Anthony</li>
+          <li class="list-group-item">Genere: Salsa</li>
+          <li class="list-group-item">Durata: 205 minuti</li>
+        </ul>
+        <div class="card-body text-center">
+          <a href="#" class="card-link ">Card link</a>
+        </div>
+      </div>
+      <div class="card bg-success p-3 text-dark bg-opacity-50 .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
+        <img src="immagini/th (1).jpeg" class="card-img-top" alt="copertina album">
+        <div class="card-body">
+          <h5 class="card-title">Muevense</h5>
+          <p class="card-text troncaAltezza">Un album recente che riflette l'influenza di Marc Anthony della musica
+            salsa </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Artista: Marc Anthony</li>
+          <li class="list-group-item">Genere: Salsa</li>
+          <li class="list-group-item">Durata: 205 minuti</li>
+        </ul>
+        <div class="card-body text-center">
+          <a href="#" class="card-link ">Card link</a>
+        </div>
+      </div>
+      <div class="card bg-success p-3 text-dark bg-opacity-50 .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
+        <img src="immagini/th (1).jpeg" class="card-img-top" alt="copertina album">
+        <div class="card-body">
+          <h5 class="card-title">Muevense</h5>
+          <p class="card-text troncaAltezza">Un album recente che riflette l'influenza di Marc Anthony della musica
+            salsa </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Artista: Marc Anthony</li>
+          <li class="list-group-item">Genere: Salsa</li>
+          <li class="list-group-item">Durata: 205 minuti</li>
+        </ul>
+        <div class="card-body text-center">
+          <a href="#" class="card-link ">Card link</a>
+        </div>
+      </div>
+    </section>
+    <h1 id="classifica" class="text-center">Classifica Album piu Votati</h1>
+    <section class="row">
+      <div class="card position-relative bg-warning  .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
+        <div class="position-absolute top-0 start-0 bg-primary text-white px-2 py-1 fw-bold" style="z-index: 1;">
+          Primo classificato
+        </div>
+
+        <img src="immagini/th (2).jpeg" class="card-img-top" alt="copertina album">
+        <div class="card-body">
+          <h5 class="card-title">Vivere bleu</h5>
+          <p class="card-text troncaAltezza"> Un omaggio convincente alla salsa romantica degli anni ’80, ben accolto
+            nonostante il dibattito sulla legittimità di questo sottogenere. </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Artista: Victor Manuelle
+          </li>
+          <li class="list-group-item">Genere: Salsa</li>
+          <li class="list-group-item">Durata: 170 minuti</li>
+        </ul>
+        <div class="card-body text-center">
+          <a href="#" class="card-link ">Card link</a>
+        </div>
+      </div>
+       <div class="card position-relative bg-secondary .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
+        <div class="position-absolute top-0 start-0 bg-primary text-white px-2 py-1 fw-bold" style="z-index: 1;">
+          Secondo classificato
+        </div>
+
+        <img src="immagini/th (2).jpeg" class="card-img-top" alt="copertina album">
+        <div class="card-body">
+          <h5 class="card-title">Vivere bleu</h5>
+          <p class="card-text troncaAltezza"> Un omaggio convincente alla salsa romantica degli anni ’80, ben accolto
+            nonostante il dibattito sulla legittimità di questo sottogenere. </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Artista: Victor Manuelle
+          </li>
+          <li class="list-group-item">Genere: Salsa</li>
+          <li class="list-group-item">Durata: 170 minuti</li>
+        </ul>
+        <div class="card-body text-center">
+          <a href="#" class="card-link ">Card link</a>
+        </div>
+      </div>
+       <div class="card position-relative bg-warning  p-3 text-dark bg-opacity-50 .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
+        <div class="position-absolute top-0 start-0 bg-primary text-white px-2 py-1 fw-bold" style="z-index: 1;">
+          Terzo classificato
+        </div>
+
+        <img src="immagini/th (2).jpeg" class="card-img-top" alt="copertina album">
+        <div class="card-body">
+          <h5 class="card-title">Vivere bleu</h5>
+          <p class="card-text troncaAltezza"> Un omaggio convincente alla salsa romantica degli anni ’80, ben accolto
+            nonostante il dibattito sulla legittimità di questo sottogenere. </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Artista: Victor Manuelle
+          </li>
+          <li class="list-group-item">Genere: Salsa</li>
+          <li class="list-group-item">Durata: 170 minuti</li>
+        </ul>
+        <div class="card-body text-center">
+          <a href="#" class="card-link ">Card link</a>
+        </div>
+      </div>
+       <div class="card position-relative bg-success p-3 text-dark bg-opacity-50 .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
+        <div class="position-absolute top-0 start-0 bg-primary text-white px-2 py-1 fw-bold" style="z-index: 1;">
+          Quarto classificato
+        </div>
+
+        <img src="immagini/th (2).jpeg" class="card-img-top" alt="copertina album">
+        <div class="card-body">
+          <h5 class="card-title">Vivere bleu</h5>
+          <p class="card-text troncaAltezza"> Un omaggio convincente alla salsa romantica degli anni ’80, ben accolto
+            nonostante il dibattito sulla legittimità di questo sottogenere. </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Artista: Victor Manuelle
+          </li>
+          <li class="list-group-item">Genere: Salsa</li>
+          <li class="list-group-item">Durata: 170 minuti</li>
+        </ul>
+        <div class="card-body text-center">
+          <a href="#" class="card-link ">Card link</a>
+        </div>
+      </div>
+       <div class="card position-relative bg-success p-3 text-dark bg-opacity-50 .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
+        <div class="position-absolute top-0 start-0 bg-primary text-white px-2 py-1 fw-bold" style="z-index: 1;">
+          Quinto classificato
+        </div>
+
+        <img src="immagini/th (2).jpeg" class="card-img-top" alt="copertina album">
+        <div class="card-body">
+          <h5 class="card-title">Vivere bleu</h5>
+          <p class="card-text troncaAltezza"> Un omaggio convincente alla salsa romantica degli anni ’80, ben accolto
+            nonostante il dibattito sulla legittimità di questo sottogenere. </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Artista: Victor Manuelle
+          </li>
+          <li class="list-group-item">Genere: Salsa</li>
+          <li class="list-group-item">Durata: 170 minuti</li>
+        </ul>
+        <div class="card-body text-center">
+          <a href="#" class="card-link ">Card link</a>
+        </div>
+      </div>
+       <div class="card position-relative bg-success p-3 text-dark bg-opacity-50 .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
+        <div class="position-absolute top-0 start-0 bg-primary text-white px-2 py-1 fw-bold" style="z-index: 1;">
+          Sesto classificato
+        </div>
+
+        <img src="immagini/th (2).jpeg" class="card-img-top" alt="copertina album">
+        <div class="card-body">
+          <h5 class="card-title">Vivere bleu</h5>
+          <p class="card-text troncaAltezza"> Un omaggio convincente alla salsa romantica degli anni ’80, ben accolto
+            nonostante il dibattito sulla legittimità di questo sottogenere. </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Artista: Victor Manuelle
+          </li>
+          <li class="list-group-item">Genere: Salsa</li>
+          <li class="list-group-item">Durata: 170 minuti</li>
+        </ul>
+        <div class="card-body text-center">
+          <a href="#" class="card-link ">Card link</a>
+        </div>
+      </div>
+       <div class="card position-relative bg-success p-3 text-dark bg-opacity-50 .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
+        <div class="position-absolute top-0 start-0 bg-primary text-white px-2 py-1 fw-bold" style="z-index: 1;">
+         Settimo classificato
+        </div>
+
+        <img src="immagini/th (2).jpeg" class="card-img-top" alt="copertina album">
+        <div class="card-body">
+          <h5 class="card-title">Vivere bleu</h5>
+          <p class="card-text troncaAltezza"> Un omaggio convincente alla salsa romantica degli anni ’80, ben accolto
+            nonostante il dibattito sulla legittimità di questo sottogenere. </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Artista: Victor Manuelle
+          </li>
+          <li class="list-group-item">Genere: Salsa</li>
+          <li class="list-group-item">Durata: 170 minuti</li>
+        </ul>
+        <div class="card-body text-center">
+          <a href="#" class="card-link ">Card link</a>
+        </div>
+      </div>
+       <div class="card position-relative bg-success p-3 text-dark bg-opacity-50 .col-sm-2 .col-md-3 .col-lg-4 .col-xl-4 .col-xxl-4" style="width: 18rem;">
+        <div class="position-absolute top-0 start-0 bg-primary text-white px-2 py-1 fw-bold" style="z-index: 1;">
+          Ottavo classificato
+        </div>
+
+        <img src="immagini/th (2).jpeg" class="card-img-top" alt="copertina album">
+        <div class="card-body">
+          <h5 class="card-title">Vivere bleu</h5>
+          <p class="card-text troncaAltezza"> Un omaggio convincente alla salsa romantica degli anni ’80, ben accolto
+            nonostante il dibattito sulla legittimità di questo sottogenere. </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Artista: Victor Manuelle
+          </li>
+          <li class="list-group-item">Genere: Salsa</li>
+          <li class="list-group-item">Durata: 170 minuti</li>
+        </ul>
+        <div class="card-body text-center">
+          <a href="#" class="card-link ">Card link</a>
+        </div>
+      </div>
+    </section>
+    <section id="preferito" class="container my-5">
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <img src="immagini/th (1).jpeg" class="img-thumbnail alt=" Copertina Album" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-md-8">
+          <h2 class="mb-3">Muovense</h2>
+          <p><strong>Band:</strong> Marc Anthony</p>
+          <p><strong>Durata:</strong> 205 minuti</p>
+          <p><strong>Genere:</strong> Salsa</p>
+          <h5 class="mt-4">Tracce:</h5>
+          <ol>
+            <li>Muevense</li>
+            <li>Punta Cana</li>
+            <li>Si Te Enamoro</li>
+            <li>Malos</li>
+            <li>Ojalá Te Duela</li>
+            <li>En La Distancia</li>
+            <li>Ale Ale</li>
+            <li>A Dónde Vamos A Parar</li>
+            <li>Pasemos A Los Besos</li>
+            <li>Amarte A La Antigua</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

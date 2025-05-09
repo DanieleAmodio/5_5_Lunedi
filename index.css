@@ -13,6 +13,7 @@ body {
     background-repeat: no-repeat;
     min-height: 100vh;
 }
+.card{ margin: 5px;}
 .card img {
     width: 263px;
     height: 100px;
@@ -29,3 +30,5 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
   }
+  .row{justify-content: center;}
+.list-group-item{background-color: transparent;}
